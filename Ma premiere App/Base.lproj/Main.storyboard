@@ -54,13 +54,6 @@
                                     <constraint firstAttribute="trailing" secondItem="Hoy-Or-ZhQ" secondAttribute="trailing" constant="20" id="k3G-oL-P88"/>
                                 </constraints>
                             </view>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="perso" translatesAutoresizingMaskIntoConstraints="NO" id="tgR-vX-FaX">
-                                <rect key="frame" x="132" y="64" width="150" height="150"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="150" id="hEG-Ca-X2h"/>
-                                    <constraint firstAttribute="width" secondItem="tgR-vX-FaX" secondAttribute="height" id="l9i-t8-e4y"/>
-                                </constraints>
-                            </imageView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7hQ-at-Xeq">
                                 <rect key="frame" x="28" y="594" width="173" height="40"/>
                                 <color key="backgroundColor" red="0.59455692488262912" green="0.4122353668743195" blue="0.3899628247439535" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -132,6 +125,13 @@
                                     </button>
                                 </subviews>
                             </stackView>
+                            <imageView clipsSubviews="YES" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="perso" translatesAutoresizingMaskIntoConstraints="NO" id="tgR-vX-FaX">
+                                <rect key="frame" x="132" y="63" width="150" height="150"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="150" id="hEG-Ca-X2h"/>
+                                    <constraint firstAttribute="width" secondItem="tgR-vX-FaX" secondAttribute="height" id="l9i-t8-e4y"/>
+                                </constraints>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <constraints>
